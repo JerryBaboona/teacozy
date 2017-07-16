@@ -139,3 +139,16 @@ div.location {
   opacity: 1;
   margin: 0px 20px;
 }
+
+
+/*Contact details section*/
+div.contact {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+
+/*Footer*/
+footer {
+  text-align: left;
+}
