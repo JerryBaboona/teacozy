@@ -84,7 +84,6 @@ div.mission div.mission-statement {
 
 /*Tea of the month styling*/
 div.tea-of-the-month {
-  align-content: center;
   width: 1000px;
   margin: auto;
 }
@@ -110,4 +109,33 @@ div.featured-tea img {
   height: 200px;
   width: 300px;
   margin: 0px 10px;
+}
+
+
+/*Locations section*/
+div.locations {
+  width: 1200px;
+  height: 500px;
+  background-image: url("./images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 70px;
+}
+
+div.locations h2 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+div.location-row {
+  display: flex;
+  align-items: content;
+  justify-content: center;
+}
+
+div.location {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px;
 }
