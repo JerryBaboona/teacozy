@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  text-align: center;
+}
+
+/*Header styling*/
+div.header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+}
+
+div.header div.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20%;
+}
+
+div.header div img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+div.header div.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 80%;
+  margin-right: 5px;
+}
+
+div.header div.nav-bar span a {
+  color: seashell;
+  margin: 0px 10px;
+}
